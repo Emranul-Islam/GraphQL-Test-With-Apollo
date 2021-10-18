@@ -1,0 +1,15 @@
+query MyFirstQueryTry{
+    posts{
+        paginatorInfo{
+            total
+            count
+            currentPage
+            hasMorePages
+            perPage
+        }
+        data{
+            title
+            description
+        }
+    }
+}
